@@ -54,9 +54,9 @@ body {
   text-shadow: 1px 1px 1px #000;
   border-radius: 15px 15px 0px 0px;
 }
-  #nav li a:hover {
-    background: rgba(255,255,255,0.25);
-  }
+#nav li a:hover {
+  background: rgba(255,255,255,0.25);
+}
 
 
 
@@ -70,68 +70,72 @@ body {
   margin: 0 auto;
   width: 1000px;
 }
-  #home_bestplans_title {
-    position: relative;
-    font-size: 30px;
-    letter-spacing: -0.05em;
-  }
-    #home_bestplans_title .city {
-      font-size: 35px;
-      color: #1C6B8C;
-      font-family: hammersmith-one;
-    }
-  #home_bestplans_changeregion {
-    position: relative;
-    top: 0px;
-    color: #AAA;
-    font-size: 12px;
-  }
-  #home_bestplans_changeregion a {
-    color: #888;
-  }
+#home_bestplans_title {
+  position: relative;
+  font-size: 30px;
+  letter-spacing: -0.05em;
+}
+#home_bestplans_title .city {
+  font-size: 35px;
+  color: #1C6B8C;
+  font-family: hammersmith-one;
+}
+#home_bestplans_changeregion {
+  position: relative;
+  top: 0px;
+  color: #AAA;
+  font-size: 12px;
+}
+#home_bestplans_changeregion a {
+  color: #888;
+}
 
+.top_row {
+  display:inline-block;
+  width: 180px;
+}
 
-  #home_bestplans_holder {
-    position: relative;
-    top: 30px;
-  }
-    #home_bestplans_holder ul {
-    }
-    #home_bestplans_holder li {
-      display: inline-block;
-      border-radius: 7px;
-      padding: 3px;
-      width: 180px;
-      margin: 10px 0px 0px 10px;
-      background: #AAA;
-      border: 1px solid #FAFAFA;
-      box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-      vertical-align: top;
-    }
-      #home_bestplans_holder li > div {
-        border-radius: 6px;
-        min-height: 200px;
-        padding: 1px;
-        background: #FFF;
-        box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-      }
+#home_bestplans_holder {
+  position: relative;
+  top: 30px;
+}
+#home_bestplans_holder ul {
+}
+#home_bestplans_holder li {
+  display: inline-block;
+  border-radius: 7px;
+  padding: 3px;
+  width: 180px;
+  margin: 10px 0px 0px 10px;
+  background: #AAA;
+  border: 1px solid #FAFAFA;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  vertical-align: top;
+}
+#home_bestplans_holder li > div {
+  border-radius: 6px;
+  min-height: 200px;
+  padding: 1px;
+  background: #FFF;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
 
-      #home_bestplans_holder .price {
-        font-size: 32px;
-        letter-spacing: -1px;
-        background: #78BA14;
-        color: #FFF;
-        border-radius: 6px 6px 0px 0px;
-        padding: 4px;
-      }
-        .price sup {
-          font-size: 0.5em;
-          vertical-align: top;
-        }
-        
-      #home_bestplans_holder .logo {
-        width: 50%;
-      }
+#home_bestplans_holder .price {
+  font-size: 32px;
+  letter-spacing: -1px;
+  background: #78BA14;
+  color: #FFF;
+  border-radius: 6px 6px 0px 0px;
+  padding: 4px;
+}
+.price sup {
+  font-size: 0.5em;
+  vertical-align: top;
+}
+
+#home_bestplans_holder .logo {
+  width: 50%;
+}
 
 
 
