@@ -1,14 +1,4 @@
-<div id="header">
-  <div id="title"><h1>WaySweeter</h1></div>
-  <div id="nav">
-    <ul>
-      <li><a href="#">Compare Your Plan</a></li>
-      <li><a href="#">View Best Plans</a></li>
-      <li><a href="#">Blog</a></li>
-
-    </ul>
-  </div>
-</div>
+<%= render 'layouts/header' %>
 
 <div id="home_bestplans_wrapper">
   <div id="home_bestplans_title">
@@ -17,96 +7,103 @@
   <div id="home_bestplans_changeregion">
     - <a href="#">Change Region</a> -
   </div>
-
-
   <div id="home_bestplans_holder">
     <ul>
-      <li class="holder">
-        <div>
-          <h3 class="price"><sup>$</sup>44.85</h3>
-          <div class="carrier">
-            <%= image_tag "bell_cutout.png", class: "logo" %>
-          </div>
-          <div class="stats">
-            <ul>
-              <li><span class="quantity">Unlimited</span> Minutes</span></li>
-              <li><span class="quantity">No</span> Data</span></li>
-              <li><span class="quantity">500</span> Texts</span></li>
-            </ul>
-          </div>
+      <div class="top_row">
+        <li id="plan_box">
+          <div>
+            <h3 class="price"><sup>$</sup>44.85</h3>
+            <div class="carrier">
+              <%= image_tag "bell_cutout.png", class: "logo" %>
+            </div>
+            <div class="stats">
+              <ul>
+                <li><span class="quantity">Unlimited</span> Minutes</span></li>
+                <li><span class="quantity">No</span> Data</span></li>
+                <li><span class="quantity">500</span> Texts</span></li>
+              </ul>
+            </div>
 
-          <div class="substats">
-            <input type="checkbox">Unlimited Evenings<br>
-            <input type="checkbox">Unlimited Weekends<br>
-            <input type="checkbox">Voicemail<br>
-            <input type="checkbox">Call Waiting<br>
-            <input type="checkbox">Caller Display<br>
+            <div class="substats">
+              <input type="checkbox">Unlimited Evenings<br>
+              <input type="checkbox">Unlimited Weekends<br>
+              <input type="checkbox">Voicemail<br>
+              <input type="checkbox">Call Waiting<br>
+              <input type="checkbox">Caller Display<br>
 
-          </div>
+            </div>
 
-          <div class="viewmore">View Full Details</div>
-        </div>
-      </li>
-      <li class="holder">
-        <div>
-          <h3 class="price"><sup>$</sup>41.95</h3>
-          <div class="carrier">
-            <%= image_tag "fido_cutout.png", class: "logo" %>
+            <div class="viewmore">View Full Details</div>
           </div>
-          <div class="stats">
-            <ul>
-              <li><span class="quantity">50</span> Minutes</span></li>
-              <li><span class="quantity">Unlimited</span> Data</span></li>
-              <li><span class="quantity">No</span> Texts</span></li>
-            </ul>
+        </li>
+      </div>
+      <div class="top_row">
+        <li class="plan_box">
+          <div>
+            <h3 class="price"><sup>$</sup>41.95</h3>
+            <div class="carrier">
+              <%= image_tag "fido_cutout.png", class: "logo" %>
+            </div>
+            <div class="stats">
+              <ul>
+                <li><span class="quantity">50</span> Minutes</span></li>
+                <li><span class="quantity">Unlimited</span> Data</span></li>
+                <li><span class="quantity">No</span> Texts</span></li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="holder">
-        <div>
-          <h3 class="price"><sup>$</sup>52.15</h3>
-          <div class="carrier">
-            <%= image_tag "rogers_cutout.png", class: "logo" %>
+        </li>
+      </div>
+      <div class="top_row">
+        <li class="plan_box">
+          <div>
+            <h3 class="price"><sup>$</sup>52.15</h3>
+            <div class="carrier">
+              <%= image_tag "rogers_cutout.png", class: "logo" %>
+            </div>
+            <div class="stats">
+              <ul>
+                <li><span class="quantity">Unlimited</span> Minutes</span></li>
+                <li><span class="quantity">Unlimited</span> Data</span></li>
+                <li><span class="quantity">Unlimited</span> Texts</span></li>
+              </ul>
+            </div>
           </div>
-          <div class="stats">
-            <ul>
-              <li><span class="quantity">Unlimited</span> Minutes</span></li>
-              <li><span class="quantity">Unlimited</span> Data</span></li>
-              <li><span class="quantity">Unlimited</span> Texts</span></li>
-            </ul>
+        </li>
+      </div>
+      <div class="top_row">
+        <li class="plan_box">
+          <div>
+            <h3 class="price"><sup>$</sup>61.85</h3>
+            <div class="carrier">
+              <%= image_tag "telus_cutout.png", class: "logo" %>
+            </div>
+            <div class="stats">
+              <ul>
+                <li><span class="quantity">200</span> Minutes</span></li>
+                <li><span class="quantity">2GB</span> Data</span></li>
+                <li><span class="quantity">Unlimited</span> Texts</span></li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="holder">
-        <div>
-          <h3 class="price"><sup>$</sup>61.85</h3>
-          <div class="carrier">
-            <%= image_tag "telus_cutout.png", class: "logo" %>
+        </li>
+      </div>
+      <div class="top_row">
+        <li class="plan_box">
+          <div>
+            <h3 class="price"><sup>$</sup>39.05</h3>
+            <div class="carrier">
+              <%= image_tag "bell_cutout.png", class: "logo" %>
+            </div>
+            <div class="stats">
+              <ul>
+                <li><span class="quantity">200</span> Minutes</span></li>
+                <li><span class="quantity">2GB</span> Data</span></li>
+                <li><span class="quantity">Unlimited</span> Texts</span></li>
+              </ul>
+            </div>
           </div>
-          <div class="stats">
-            <ul>
-              <li><span class="quantity">200</span> Minutes</span></li>
-              <li><span class="quantity">2GB</span> Data</span></li>
-              <li><span class="quantity">Unlimited</span> Texts</span></li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="holder">
-        <div>
-          <h3 class="price"><sup>$</sup>39.05</h3>
-          <div class="carrier">
-            <%= image_tag "bell_cutout.png", class: "logo" %>
-          </div>
-          <div class="stats">
-            <ul>
-              <li><span class="quantity">200</span> Minutes</span></li>
-              <li><span class="quantity">2GB</span> Data</span></li>
-              <li><span class="quantity">Unlimited</span> Texts</span></li>
-            </ul>
-          </div>
-        </div>
-      </li>
+        </li>
 
     </ul>
   </div>
