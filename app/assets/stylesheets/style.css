@@ -72,7 +72,7 @@ body {
 }
   #home_bestplans_title {
     position: relative;
-    font-size: 30px;
+    font-size: 36px;
     letter-spacing: -0.05em;
   }
     #home_bestplans_title .city {
@@ -97,7 +97,7 @@ body {
   }
     #home_bestplans_holder ul {
     }
-    #home_bestplans_holder li {
+    #home_bestplans_holder .holder {
       display: inline-block;
       border-radius: 7px;
       padding: 3px;
@@ -108,9 +108,8 @@ body {
       box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
       vertical-align: top;
     }
-      #home_bestplans_holder li > div {
+      #home_bestplans_holder .holder > div {
         border-radius: 6px;
-        min-height: 200px;
         padding: 1px;
         background: #FFF;
         box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
@@ -119,19 +118,64 @@ body {
       #home_bestplans_holder .price {
         font-size: 32px;
         letter-spacing: -1px;
-        background: #78BA14;
+        background: #55A7C2;
         color: #FFF;
         border-radius: 6px 6px 0px 0px;
-        padding: 4px;
+        padding: 8px 0px 4px 0px;
+        text-shadow: 1px 1px 1px #6D93AD;
       }
         .price sup {
           font-size: 0.5em;
           vertical-align: top;
         }
-        
+      #home_bestplans_holder .carrier {
+        position: relative;
+        background: #555;
+        padding: 4px 0px;
+      }  
       #home_bestplans_holder .logo {
-        width: 50%;
+        width: 30%;
       }
+
+      #home_bestplans_holder .stats li {
+        padding: 4px 0px;
+        text-align: center;
+        font-size: 13px;
+        border-bottom:1px solid #CCC;
+        background: #EEE;
+        margin: 1px 0px;
+      }
+
+      #home_bestplans_holder .quantity {
+        font-weight: bold;
+        letter-spacing: -1px;
+      }
+
+      #home_bestplans_holder .substats {
+        font-size: 11px;
+        padding: 6px;
+        line-height: 1.5em;
+        background: #CCC;
+        text-align: left;
+      }
+
+      #home_bestplans_holder .viewmore {
+        border-radius: 0px 0px 6px 6px;
+        background: #444;
+        color: #FFF;
+        padding: 7px 0px;
+      }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
