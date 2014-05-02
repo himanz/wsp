@@ -17,16 +17,16 @@
 
 $(document).ready(function(){
 
-	var planBox = $('#plan_box'); 
+	var planBox = $('.plan_box'); 
 	var tl = new TimelineLite ();
 
-	$('#plan_box').mouseenter(function(){
+	$('.plan_box').mouseenter(function(){
 		
 	}); 
-	$('#plan_box').mouseleave(function(){
+	$('.plan_box').mouseleave(function(){
 		
 	}); 
-	$('#plan_box').on('click', function(){
+	$('.plan_box').on('click', function(){
 		TweenLite.to(planBox, 1, 
 		{	
 			position: 'fixed',

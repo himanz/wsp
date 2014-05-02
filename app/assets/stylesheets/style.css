@@ -93,6 +93,7 @@ body {
 .top_row {
   display:inline-block;
   width: 180px;
+  vertical-align: top;
 }
 
   #home_bestplans_holder {
@@ -101,7 +102,7 @@ body {
   }
     #home_bestplans_holder ul {
     }
-    #home_bestplans_holder .holder {
+    #home_bestplans_holder .plan_box {
       display: inline-block;
       border-radius: 7px;
       padding: 3px;
@@ -112,7 +113,10 @@ body {
       box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
       vertical-align: top;
     }
-      #home_bestplans_holder .holder > div {
+      #home_bestplans_holder .plan_box:hover .hover_info {
+        display: block;
+      }
+      #home_bestplans_holder .plan_box > div {
         border-radius: 6px;
         padding: 1px;
         background: #FFF;
@@ -171,7 +175,9 @@ body {
       }
 
 
-
+      .hover_info {
+        display: none;
+      }
 
 
 
