@@ -18,24 +18,15 @@
 
 $(document).ready(function(){
 
-	var planBox = $('.plan_box'); 
-	var tl = new TimelineLite ();
-
 	$('.plan_box').mouseenter(function(){
-		
+		//TweenLite.to($(this), 1, {borderColor:'red'});
 	}); 
 	$('.plan_box').mouseleave(function(){
 		
 	}); 
 	$('.plan_box').on('click', function(){
-		TweenLite.to(planBox, 1, 
-		{	
-			position: 'fixed',
-			top: '50%',
-			left: '50%',
-			marginTop: '-50px',
-			marginLeft: '-50px'
-		});	
+	
 	});
 });
+
 $(function(){ $(document).foundation(); });
