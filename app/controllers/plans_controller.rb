@@ -12,6 +12,16 @@ class PlansController < ApplicationController
 	end
 
 	def create
-		
+		@plan = Plan.new(plan_params)
+		if @plan.save
+			redirect_to index
+		else
+			render new
+		end
+	end
+
+	private
+	def plan_params
+		params.require(:plan).permit(:price, :data, :minutes, :text)
 	end
 end
