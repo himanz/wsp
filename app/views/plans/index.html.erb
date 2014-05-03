@@ -1,4 +1,16 @@
+<!DOCTYPE html>
+  <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Foundation 5</title>
+      <head>
+
+
+    </head>
+    <body>
+
 <%= render 'layouts/header' %>
+
+
 
 <div id="home_bestplans_wrapper">
   <div id="home_bestplans_title">
@@ -7,6 +19,8 @@
   <div id="home_bestplans_changeregion">
     - <a href="#">Change Region</a> -
   </div>
+
+
   <div id="home_bestplans_holder">
     <ul>
       <div class="top_row">
@@ -22,6 +36,7 @@
                 <li><span class="quantity">No</span> Data</span></li>
                 <li><span class="quantity">500</span> Texts</span></li>
               </ul>
+
             </div>
             <div class="hover_info">
               <div class="substats">
@@ -107,5 +122,19 @@
         </li>
 
     </ul>
+    </ul>
   </div>
 </div>
+
+<%= "List of plans" %>
+<% @plans.each do |plan| %>
+  <p><%= link_to "Price:", plan %> <%= plan.price %></p>
+  <p>Minutes: <%= plan.minutes %></p>
+  <p>Data: <%= plan.data %></p>
+  <p>Text: <%= plan.text %></p>
+  <p>-----</p>
+<% end %>
+
+    </body>
+    </html>
+
