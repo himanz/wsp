@@ -126,15 +126,42 @@
   </div>
 </div>
 
-<%= "List of plans" %>
-<% @plans.each do |plan| %>
-  <p><%= link_to "Price:", plan %> <%= plan.price %></p>
-  <p>Minutes: <%= plan.minutes %></p>
-  <p>Data: <%= plan.data %></p>
-  <p>Text: <%= plan.text %></p>
-  <p>-----</p>
-<% end %>
+  <ul class="small-block-grid-4">
+<li> <% @plans.each do |plan| %> 
 
-    </body>
+<div id="home_bestplans_holder">
+      <div class="top_row">
+        <li class="plan_box">
+      <div>
+            <h3 class="price"><sup>$</sup>  <%= link_to plan.price, plan %>
+            </h3>
+            <div class="carrier">
+              <%= image_tag "bell_cutout.png", class: "logo" %>
+            </div>
+
+            <div class="stats">
+              <ul>
+                <li><span class="quantity">Minutes: <%= plan.minutes %><Minutes</span></li>
+                <li><span class="quantity">Data: <%= plan.data %>MB</span></li>
+                <li><span class="quantity">Text: <%= plan.text %></span></li>
+              </ul>
+            </div>
+
+            <div class="hover_info">
+              <div class="substats">
+                <input type="checkbox">Unlimited Evenings<br>
+                <input type="checkbox">Unlimited Weekends<br>
+                <input type="checkbox">Voicemail<br>
+                <input type="checkbox">Call Waiting<br>
+                <input type="checkbox">Caller Display<br>
+
+              </div>
+
+              <div class="viewmore">View Full Details</div>
+            </div>
+  </div>
+<% end %>
+  </li>
+  </ul>
     </html>
 
