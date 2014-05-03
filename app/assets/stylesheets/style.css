@@ -201,7 +201,7 @@ body {
 }
 
 #mid{
-background-color: #EEEFF3;
+background-color: #123F60;
   position: absolute;
   top: 450px;
   left: 0px; 
@@ -243,8 +243,9 @@ background-color: #123F60;
 }
 
 
-
-
+#s1{
+  top: 500px;
+  }
 
 
 
