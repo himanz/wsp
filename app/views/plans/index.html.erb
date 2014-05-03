@@ -3,12 +3,14 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Foundation 5</title>
       <head>
-<script src="/app/assets/javascripts/vendor/foundation.min.js"></script>
+
 
     </head>
     <body>
 
 <%= render 'layouts/header' %>
+
+
 
 <div id="home_bestplans_wrapper">
   <div id="home_bestplans_title">
@@ -124,6 +126,14 @@
   </div>
 </div>
 
+<%= "List of plans" %>
+<% @plans.each do |plan| %>
+  <p>Price: <%= plan.price %></p>
+  <p>Minutes: <%= plan.minutes %></p>
+  <p>Data: <%= plan.data %></p>
+  <p>Text: <%= plan.text %></p>
+  <p>-----</p>
+<% end %>
 
     </body>
     </html>
