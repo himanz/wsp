@@ -31,6 +31,9 @@ class PlansController < ApplicationController
 		end
 	end
 
+    def home
+    end
+
 	private
 	def plan_params
 		params.require(:plan).permit(:price, :data, :minutes, :text)

@@ -1,6 +1,7 @@
 Wsp::Application.routes.draw do
   devise_for :users
-  root 'plans#index'
+  root 'plans#home'
+  get 'plans/home', :to => 'plans#home'
   resources :plans, :except => [:edit, :update, :destroy] 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
