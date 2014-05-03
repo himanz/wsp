@@ -29,234 +29,231 @@ body {
   letter-spacing: -0.05em;
   color: #FFA600;
   text-shadow: 1px 1px 0px #333;
-}*/
+  }*/
 
-#nav {
-  position: absolute;
-  right: 10%;
-  top: 0px;
-  line-height: 40px;
-}
+  #nav {
+    position: absolute;
+    right: 10%;
+    top: 0px;
+    line-height: 40px;
+  }
 
-#nav ul {
-  list-style-type: none;
-}
-#nav li {
-  display: inline-block;
-  margin: 0px 5px;
-}
-#nav li a {
-  display: block;
-  color: #FFF;
-  padding: 0px 15px;
-  margin-top: 14px;
-  text-decoration: none;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 15px 15px 0px 0px;
-}
-#nav li a:hover {
-  background: rgba(255,255,255,0.25);
-}
+  #nav ul {
+    list-style-type: none;
+  }
+  #nav li {
+    display: inline-block;
+    margin: 0px 5px;
+  }
+  #nav li a {
+    display: block;
+    color: #FFF;
+    padding: 0px 15px;
+    margin-top: 14px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 15px 15px 0px 0px;
+  }
+  #nav li a:hover {
+    background: rgba(255,255,255,0.25);
+  }
 
-/************** HOMEPAGE - Best Plans ******************/
-#home_bestplans_wrapper {
-  text-align: center;
-  position: relative;
-  top: 40px;
-  margin: 0 auto;
-  width: 1000px;
-}
-#home_bestplans_title {
-  position: relative;
-  font-size: 36px;
-  letter-spacing: -0.05em;
-}
-#home_bestplans_title .city {
-  font-size: 35px;
-  color: #1C6B8C;
-  font-family: hammersmith-one;
-}
-#home_bestplans_changeregion {
-  position: relative;
-  top: 0px;
-  color: #AAA;
-  font-size: 12px;
-}
-#home_bestplans_changeregion a {
-  color: #888;
-}
+  /************** HOMEPAGE - Best Plans ******************/
+  #home_bestplans_wrapper {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+    width: 1000px;
+  }
+  #home_bestplans_title {
+    position: relative;
+    font-size: 36px;
+    letter-spacing: -0.05em;
+  }
+  #home_bestplans_title .city {
+    font-size: 35px;
+    color: #1C6B8C;
+    font-family: hammersmith-one;
+  }
+  #home_bestplans_changeregion {
+    position: relative;
+    top: 0px;
+    color: #AAA;
+    font-size: 12px;
+  }
+  #home_bestplans_changeregion a {
+    color: #888;
+  }
 
-.top_row {
-  display:inline-block;
-  width: 180px;
-  vertical-align: top;
-}
+  .top_row {
+    display:inline-block;
+    width: 180px;
+    vertical-align: top;
+  }
 
   #home_bestplans_holder {
     position: relative;
     top: 30px;
   }
-    #home_bestplans_holder ul {
-    }
-    #home_bestplans_holder .plan_box {
-      display: inline-block;
-      border-radius: 7px;
-      padding: 3px;
-      width: 180px;
-      margin: 10px 0px 0px 10px;
-      background: #AAA;
-      border: 1px solid #FAFAFA;
-      box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-      vertical-align: top;
-    }
-      #home_bestplans_holder .plan_box:hover .hover_info {
-        display: block;
-      }
-      #home_bestplans_holder .plan_box > div {
-        border-radius: 6px;
-        padding: 1px;
-        background: #FFF;
-        box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-      }
+  #home_bestplans_holder ul {
+  }
+  #home_bestplans_holder .plan_box {
+    display: inline-block;
+    border-radius: 7px;
+    padding: 3px;
+    width: 180px;
+    margin: 10px 0px 0px 10px;
+    background: #AAA;
+    border: 1px solid #FAFAFA;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    vertical-align: top;
+  }
+  #home_bestplans_holder .plan_box:hover .hover_info {
+    display: block;
+  }
+  #home_bestplans_holder .plan_box > div {
+    border-radius: 6px;
+    padding: 1px;
+    background: #FFF;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  }
 
-      #home_bestplans_holder .price {
-        font-size: 32px;
-        letter-spacing: -1px;
-        background: #2a9dff;
-        color: #FFF;
-        border-radius: 6px 6px 0px 0px;
-        padding: 8px 0px 4px 0px;
-        text-shadow: 1px 1px 1px #6D93AD;
-      }
-        .price sup {
-          font-size: 0.5em;
-          vertical-align: top;
-        }
-      #home_bestplans_holder .carrier {
-        position: relative;
-        background: #555;
-        padding: 4px 0px;
-      }  
-      #home_bestplans_holder .logo {
-        width: 30%;
-      }
+  #home_bestplans_holder .price {
+    font-size: 32px;
+    letter-spacing: -1px;
+    background: #2a9dff;
+    color: #FFF;
+    border-radius: 6px 6px 0px 0px;
+    padding: 8px 0px 4px 0px;
+    text-shadow: 1px 1px 1px #6D93AD;
+  }
+  .price sup {
+    font-size: 0.5em;
+    vertical-align: top;
+  }
+  #home_bestplans_holder .carrier {
+    position: relative;
+    background: #555;
+    padding: 4px 0px;
+  }  
+  #home_bestplans_holder .logo {
+    width: 30%;
+  }
 
-      #home_bestplans_holder .stats li {
-        padding: 4px 0px;
-        text-align: center;
-        font-size: 13px;
-        border-bottom:1px solid #CCC;
-        background: #EEE;
-        margin: 1px 0px;
-      }
+  #home_bestplans_holder .stats li {
+    padding: 4px 0px;
+    text-align: center;
+    font-size: 13px;
+    border-bottom:1px solid #CCC;
+    background: #EEE;
+    margin: 1px 0px;
+  }
 
-      #home_bestplans_holder .quantity {
-        font-weight: bold;
-        letter-spacing: -1px;
-      }
+  #home_bestplans_holder .quantity {
+    font-weight: bold;
+    letter-spacing: -1px;
+  }
 
-      #home_bestplans_holder .substats {
-        font-size: 11px;
-        padding: 6px;
-        line-height: 1.5em;
-        background: #CCC;
-        text-align: left;
-      }
+  #home_bestplans_holder .substats {
+    font-size: 11px;
+    padding: 6px;
+    line-height: 1.5em;
+    background: #CCC;
+    text-align: left;
+  }
 
-      #home_bestplans_holder .viewmore {
-        border-radius: 0px 0px 6px 6px;
-        background: #444;
-        color: #FFF;
-        padding: 7px 0px;
-      }
-
-
-      .hover_info {
-        display: none;
-      }
-
-/*phil's css for the home page*/
-
-#banner{
-  background-color: #0072bc;
-  position: absolute;
-  top: 0px;
-  left: 0px; 
-  width: 100%;
-  height: 100px;
-}
-
-#a1{
-  color: white;
-  text-align: right;
-}
-
-#a2{
-  background-color: #EEEFF3;
-  position: absolute;
-  top: 60px;
-  left: 0px; 
-  width: 100%;
-  height: 100%;
-}
-
-#mid{
-background-color: #123F60;
-  position: absolute;
-  top: 450px;
-  left: 0px; 
-  width: 100%;
-  height: 30%;
-
-}
-
-#c1 {
-background-color: #1D9ECC;
-  position: absolute;
-  bottom: 150px;
-  left: 0px; 
-  width: 100%;
-  height: 300px;
-
-}
-
-#c2 {
-background-color: #123F60;
-  position: absolute;
-  bottom: -100px;
-  left: 0px; 
-  width: 100%;
-  height: 50px;
-
-}
-
-#c1h{
-  font-size: 30px;
-  color: white;
-
-}
-
-#c2h{
-  font-size: 25px;
-  color: white;  
-  
-}
-
-/*end of home page css*/
-
-<<<<<<< HEAD
-
-/* tweaks to header */
-.top-bar-section .right {
-  padding-top:6px; 
-} 
-=======
-#s1{
-  top: 500px;
+  #home_bestplans_holder .viewmore {
+    border-radius: 0px 0px 6px 6px;
+    background: #444;
+    color: #FFF;
+    padding: 7px 0px;
   }
 
 
->>>>>>> d74aeab0075c31774b3d3ced94e13edaa24dfb26
+  .hover_info {
+    display: none;
+  }
+
+  /*phil's css for the home page*/
+
+  #banner{
+    background-color: #0072bc;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    width: 100%;
+    height: 100px;
+  }
+
+  #a1{
+    color: white;
+    text-align: right;
+  }
+
+  #a2{
+    background-color: #EEEFF3;
+    position: absolute;
+    top: 60px;
+    left: 0px; 
+    width: 100%;
+    height: 100%;
+  }
+
+  #mid{
+    background-color: #123F60;
+    position: absolute;
+    top: 450px;
+    left: 0px; 
+    width: 100%;
+    height: 30%;
+
+  }
+
+  #c1 {
+    background-color: #1D9ECC;
+    position: absolute;
+    bottom: 150px;
+    left: 0px; 
+    width: 100%;
+    height: 300px;
+
+  }
+
+  #c2 {
+    background-color: #123F60;
+    position: absolute;
+    bottom: -100px;
+    left: 0px; 
+    width: 100%;
+    height: 50px;
+
+  }
+
+  #c1h{
+    font-size: 30px;
+    color: white;
+
+  }
+
+  #c2h{
+    font-size: 25px;
+    color: white;  
+    
+  }
+
+  /*end of home page css*/
+
+  /* tweaks to header */
+  .top-bar-section .right {
+    padding-top:6px; 
+  } 
+
+  #s1{
+    top: 500px;
+  }
+
+
 
 
 
