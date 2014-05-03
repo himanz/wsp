@@ -175,7 +175,7 @@ body {
         display: none;
       }
 
-
+/*phil's css for the home page*/
 
 #banner{
   background-color: #0072bc;
@@ -242,11 +242,13 @@ background-color: #123F60;
   
 }
 
+/*end of home page css*/
 
 
-
-
-
+/* tweaks to header */
+.top-bar-section .right {
+  padding-top:6px; 
+} 
 
 
 
