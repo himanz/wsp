@@ -128,7 +128,7 @@
 
 <%= "List of plans" %>
 <% @plans.each do |plan| %>
-  <p>Price: <%= plan.price %></p>
+  <p><%= link_to "Price:", plan %> <%= plan.price %></p>
   <p>Minutes: <%= plan.minutes %></p>
   <p>Data: <%= plan.data %></p>
   <p>Text: <%= plan.text %></p>
