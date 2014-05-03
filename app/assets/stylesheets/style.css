@@ -201,7 +201,7 @@ body {
 }
 
 #mid{
-background-color: #EEEFF3;
+background-color: #123F60;
   position: absolute;
   top: 450px;
   left: 0px; 
@@ -244,11 +244,19 @@ background-color: #123F60;
 
 /*end of home page css*/
 
+<<<<<<< HEAD
 
 /* tweaks to header */
 .top-bar-section .right {
   padding-top:6px; 
 } 
+=======
+#s1{
+  top: 500px;
+  }
+
+
+>>>>>>> d74aeab0075c31774b3d3ced94e13edaa24dfb26
 
 
 
