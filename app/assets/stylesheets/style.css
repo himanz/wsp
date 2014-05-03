@@ -239,7 +239,7 @@ body {
   #c2h{
     font-size: 25px;
     color: white;  
-    
+
   }
 
   /*end of home page css*/
@@ -248,6 +248,8 @@ body {
   .top-bar-section .right {
     padding-top:6px; 
   } 
+  /* end of tweeks */
+
 
   #s1{
     top: 500px;
